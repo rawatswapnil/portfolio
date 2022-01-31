@@ -32,6 +32,7 @@
 .main{
     /* background-color: yellow; */
     width: 90vw;
+    margin-left: 256px;
 }
 
 .container{
@@ -40,9 +41,8 @@
 
 .infoContainer{
     /* background-color: darkmagenta; */
-    height: 58vh;
     width: 80vw;
-    margin: 144px auto;
+    margin: 144px 0 0 0;
     display: flex;
     justify-content: space-around;
 }
@@ -107,7 +107,6 @@
 }
 
 .contactform{
-    padding: 0 34px;
     font-family: 'Fira Sans', sans-serif;
     margin: 88px;
 }
@@ -215,16 +214,12 @@ p{
     background-color: yellow;
 }
 
-.sidebarGo{
-    transform: translate(-443px, 0px);
-    position: absolute;
-}
-
 .hamburger{
     position: absolute;
     cursor: pointer;
     top: 10px;
     left: 10px;
+    display: none;
 }
 
 .ham{
@@ -240,6 +235,11 @@ p{
 
 @media (max-width: 1024px){
 
+    .main{
+        /* background-color: yellow; */
+        margin-left: 0;
+    }
+
     .buttons{
         font-size: 6px;
     }
@@ -252,12 +252,21 @@ p{
         display: none;
     }
 
-    .intro, .blogContainer, .contactform{
-        margin: 8px;
+    .infoContainer{
+        padding: 0 34px;
     }
 
-    /* .sidebar{
+    .intro, .blogContainer, .contactform{
+        margin: 8px;
+        padding: 0 34px;
+    }
+
+    .hamburger{
+        display: inline;
+    }
+
+    .sidebarGo{
         transform: translate(-443px, 0px);
         position: absolute;
-    } */
+    }
 }
