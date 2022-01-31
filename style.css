@@ -103,7 +103,11 @@
 }
 
 .devPic img{
-    height: 58vh;
+    width: 70%;
+    border: 4px solid white;
+    border-radius: 150px;
+    display: block;
+    margin: auto;
 }
 
 .contactform{
@@ -248,12 +252,14 @@ p{
         font-size: 10px;
     }
 
-    .devPic{
+    /* .devPic{
         display: none;
-    }
+    } */
 
     .infoContainer{
+        margin: 8px 0 0 0;
         padding: 0 34px;
+        flex-direction: column-reverse;
     }
 
     .intro, .blogContainer, .contactform{
