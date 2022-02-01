@@ -7,7 +7,10 @@
 }
 
 .sidebar{
-    background-color: lightgrey;
+    background: rgba(0, 0, 0, 0.7) url('/bg.jpg');
+    background-size: cover;
+    background-blend-mode: darken;
+    /* background-color: lightgrey; */
     font-family: 'Fira Sans', sans-serif;
     height: 100vh;
     transition: transform 0.3s ease-in;
@@ -26,7 +29,7 @@
 
 .sidebar nav li a{
     text-decoration: none;
-    color: black;
+    color: white;
 }
 
 .main{
@@ -235,6 +238,7 @@ p{
     margin-left: 155px;
     margin-top: 10px;
     transition: transform 0.3s ease-in;
+    filter: invert();
 }
 
 @media (max-width: 1024px){
