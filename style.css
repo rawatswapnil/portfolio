@@ -6,7 +6,7 @@
 }
 
 body{
-    background: url("../img/bg.jfif");
+    background: url("bg.jfif");
     display: flex;
     align-items: center;
     justify-content: center;
