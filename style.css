@@ -109,8 +109,28 @@ h1, p{
     margin: 20px;
 }
 
-.experienceItem ul, li{
+.experienceItem ul{
     margin: 20px;
+}
+
+.experienceItem li{
+    position: relative;
+    margin: 20px;
+}
+
+.not-last::before{
+    width: 2px;
+    background-color: #C5C6C7;
+    content: '';
+    position: absolute;
+    top: 25px;
+    bottom: -30px;
+    left: -21px;
+}
+
+.experienceItem li::marker{
+    font-size: 30px;
+    color: #C5C6C7;
 }
 
 .company{
@@ -121,4 +141,3 @@ h1, p{
     width: 5%;
     height: 5%;
 }
-
