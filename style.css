@@ -13,6 +13,11 @@ body{
     flex-direction: column;
 }
 
+hr{
+    margin: 10px;
+    border: 1px solid #45A29E;
+}
+
 h1{
     color: white;
     margin-top: 20px;
@@ -42,14 +47,14 @@ P{
     align-items: baseline;
 }
 
-.intro, .about, .featured, .experience{
+.intro, .about, .featured, .experience, .education, .skills{
     width: 60vw;
     margin-bottom: 10px;
     background: #1F2833;
     border-radius: 5px;
 }
 
-.intro p, .about p{
+.intro p, .about p, .skills p{
     margin-bottom: 10px;
 }
 
@@ -63,12 +68,12 @@ P{
     margin-left: 200px;
 }
 
-.current, .education{
+.current, .grad{
     display: flex;
     align-items: center;
 }
 
-.current img, .education img{
+.current img, .grad img{
     width: 10%;
 }
 
@@ -105,12 +110,12 @@ h1, p{
     color: #0B0C10;
 }
 
-.experienceItem{
+.experienceItem, .educationItem{
     display: flex;
     flex-direction: column;
 }
 
-.company, .role{
+.company, .role, .school{
     display: flex;
     align-items: center;
 }
@@ -127,15 +132,15 @@ h1, p{
 
 .line{
     width: 45px;
-    border: 1px solid #C5C6C7;
+    border: 1px solid #66FCF1;
     position: absolute;
 }
 
 .circle{
     height: 10px;
     width: 10px;
-    border: 1px solid #C5C6C7;
-    background-color: #C5C6C7;
+    border: 1px solid #66FCF1;
+    background-color: #66FCF1;
     border-radius: 100px;
     margin: auto 45px;
     position: relative;
