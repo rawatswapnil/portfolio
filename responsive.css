@@ -13,11 +13,8 @@
         align-items: center;
     }
 
-    .intro, .about, .featured, .experience{
+    .intro, .about, .featured, .experience, .education, .skills{
         width: 90vw;
-        margin-bottom: 10px;
-        background: #1F2833;
-        border-radius: 5px;
     }
 
     .profile{
