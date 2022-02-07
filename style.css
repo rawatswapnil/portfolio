@@ -44,7 +44,7 @@ p{
 .scroll{
     display: flex;
     overflow-x: auto;
-    padding: 0 10px;
+    padding: 10px;
 }
 
 .container{
@@ -114,7 +114,7 @@ h1, p{
     height: 150px;
 }
 
-.featured p{
+.featuredItem p{
     color: #0B0C10;
 }
 
