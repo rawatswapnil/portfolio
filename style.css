@@ -105,6 +105,7 @@ h1, p{
     max-width: 250px;
     margin: 5px;
     background: white;
+    height: 300px;
 }
 
 .featuredItem img{
@@ -113,12 +114,15 @@ h1, p{
     height: 150px;
 }
 
-.bold{
-    font-weight: bold;
+.featured p{
     color: #0B0C10;
 }
 
-.company, .role, .school{
+.bold{
+    font-weight: bold;
+}
+
+.company, .role, .school, .info{
     display: flex;
     align-items: center;
 }
