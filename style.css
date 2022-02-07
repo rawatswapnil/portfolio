@@ -13,6 +13,10 @@ body{
     flex-direction: column;
 }
 
+a{
+    text-decoration: none;
+}
+
 hr{
     margin: 10px;
     border: 1px solid #45A29E;
@@ -24,7 +28,7 @@ h1{
     margin-bottom: 20px;
 }
 
-P{
+p{
     color: #C5C6C7;
 }
 
@@ -36,9 +40,18 @@ P{
     color: white;
 }
 
+.scroll{
+    display: flex;
+    overflow-x: auto;
+    padding: 0 10px;
+}
+
 .container{
     display: flex;
-    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: nowrap;
+    flex-shrink: 0;
 }
 
 .intro{
@@ -47,7 +60,7 @@ P{
     align-items: baseline;
 }
 
-.intro, .about, .featured, .experience, .education, .skills{
+.intro, .about, .featured, .experience, .education, .skills, .contact{
     width: 60vw;
     margin-bottom: 10px;
     background: #1F2833;
@@ -83,12 +96,6 @@ h1, p{
     font-family: 'Open Sans', sans-serif;
 }
 
-.container{
-    display: flex;
-    justify-content: center;
-    padding: 10px 0;
-}
-
 .featuredItem{
     display: flex;
     flex-direction: column;
@@ -108,11 +115,6 @@ h1, p{
 .bold{
     font-weight: bold;
     color: #0B0C10;
-}
-
-.experienceItem, .educationItem{
-    display: flex;
-    flex-direction: column;
 }
 
 .company, .role, .school{
