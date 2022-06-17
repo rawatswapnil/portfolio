@@ -505,10 +505,6 @@ section{
     width: 80%;
 }
 
-.skills .skills-content .right .python::before{
-    width: 99%;
-}
-
 .skills .skills-content .right .apex::before{
     width: 95%;
 }
