@@ -5,19 +5,19 @@ const projects = [
     {
       title: 'Bajaj Finserv Health',
       description: 'A health-tech company providing access to preventive, personalized & affordable healthcare for all!',
-      link: 'https://www.linkedin.com/company/bajaj-finserv-health/posts/?feedView=all',
+      link: 'https://www.bajajfinservhealth.in/',
       image: 'https://www.equitypandit.com/wp-content/uploads/2024/01/f50a2851f2ba567af9cc91434d4fa41f-1920x1079.jpg',
     },
     {
       title: 'Kotak 811',
       description: 'Digital Banking',
-      link: 'https://www.linkedin.com/company/kotak811/posts/?feedView=all',
+      link: 'https://www.kotak811.com/',
       image: 'https://media.licdn.com/dms/image/v2/C5612AQE_kWodFZjZYw/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1639574217524?e=1740009600&v=beta&t=NL3f-bG3LwRvt-CcLdD02JBQbS5AJ180Klilhxpw3To',
     },
     {
       title: 'Salesforce',
       description: '👋 We\'re Salesforce, the customer company. CRM + Data + AI + Trust.',
-      link: 'https://www.linkedin.com/company/salesforce/posts/?feedView=all',
+      link: 'https://www.salesforce.com/',
       image: 'https://shelf.io/wp-content/uploads/2023/09/salesforce.png.webp',
     },
   ];
