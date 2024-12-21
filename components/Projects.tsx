@@ -18,7 +18,7 @@ const projects = [
       title: 'Salesforce',
       description: '👋 We\'re Salesforce, the customer company. CRM + Data + AI + Trust.',
       link: 'https://www.salesforce.com/',
-      image: 'https://shelf.io/wp-content/uploads/2023/09/salesforce.png.webp',
+      image: 'https://www.twoday.com/hubfs/GL%20-%20twoday%20Global/GL_Website/Pictures/Salesforce-4-3-A.svg',
     },
   ];
   
