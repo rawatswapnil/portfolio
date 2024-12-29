@@ -1,5 +1,6 @@
 // components/Contact.tsx
 import { useState } from 'react';
+import { toast } from 'react-toastify';
 
 const Contact = () => {
   const [formData, setFormData] = useState({ name: '', email: '', message: '' });
@@ -12,7 +13,8 @@ const Contact = () => {
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     // Handle form submission (e.g., send data to an API or email service)
-    alert('Message sent!');
+    toast.success('Message sent!');
+    setFormData({ name: '', email: '', message: '' });
   };
 
   return (
