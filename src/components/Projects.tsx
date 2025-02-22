@@ -14,7 +14,7 @@ const projects = [
       title: 'Kotak 811',
       description: 'Digital Banking',
       link: 'https://www.kotak811.com/',
-      image: 'https://media.licdn.com/dms/image/v2/C5612AQE_kWodFZjZYw/article-cover_image-shrink_423_752/article-cover_image-shrink_423_752/0/1639574217524?e=1740009600&v=beta&t=NL3f-bG3LwRvt-CcLdD02JBQbS5AJ180Klilhxpw3To',
+      image: 'https://scontent.fbom26-3.fna.fbcdn.net/v/t39.30808-6/357833783_280714441142762_2742887508261440935_n.jpg?_nc_cat=1&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=XLhzbsbtYdIQ7kNvgF0WYhO&_nc_zt=23&_nc_ht=scontent.fbom26-3.fna&_nc_gid=AJboPXatn2UFC5pNo3ep6OA&oh=00_AYC3i2_nTQ7vFBbK0-qUoYxNxY4f7bnMY_PqWucnROHM0g&oe=67BF5EB1',
     },
     {
       title: 'Salesforce',
